@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <!-- BS4 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+
+
+
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="w-50">
+
+            <!-- *Bài Tập 1 -->
+            <h2>Bài tập 1</h2>
+            <form>
+                <div class="form-group">
+                    <label for="inputLuong1Ngay">Số lương 1 ngày</label>
+                    <input type="text" class="form-control" id="inputLuong1Ngay">
+                </div>
+                <div class="form-group">
+                    <label for="inputSoNgayLam">Số ngày làm</label>
+                    <input type="text" class="form-control" id="inputSoNgayLam">
+                </div>
+                <button onclick="tinhTongLuong()" type="button" class="btn btn-primary">
+                    Tính
+                </button>
+                <p id="tXt" class="alert alert-primary"></p>
+            </form>
+
+            <!--* Bài Tập 2 -->
+            <h2 class="my-5">Bài tập 2</h2>
+            <form>
+                <div class="form-group">
+                    <label for="">Số 1</label>
+                    <input type="number" class="form-control" id="inputNum1">
+                </div>
+                <div class="form-group">
+                    <label for="">số 2</label>
+                    <input type="number" class="form-control" id="inputNum2">
+                </div>
+                <div class="form-group">
+                    <label for="">số 3</label>
+                    <input type="number" class="form-control" id="inputNum3">
+                </div>
+                <div class="form-group">
+                    <label for="">số 4</label>
+                    <input type="number" class="form-control" id="inputNum4">
+                </div>
+                <div class="form-group">
+                    <label for="">số 5</label>
+                    <input type="number" class="form-control" id="inputNum5">
+                </div>
+                <button onclick="tinhTrungBinh()" type="button" class="btn btn-primary">
+                    Tính
+                </button>
+                <p id="trungBinh" class="alert alert-success"></p>
+            </form>
+
+
+            <!-- *Bài Tập 3 -->
+            <h2 class="my-5">Bài tập 3</h2>
+
+            <form>
+                <div class="form-group">
+                    <label for="">USD</label>
+                    <input type="text" class="form-control" id="usd">
+                </div>
+                <div class="form-group">
+                    <label for="">Giá USD hiện nay</label>
+                    <input disabled value="23500" type="text" class="form-control " id="">
+                </div>
+                <div class="form-group">
+                    <label for="">Người dùng nhập USD</label>
+                    <input type="text" class="form-control" id="nguoiDung">
+                </div>
+                <button onclick="quyDoiTien()" type="button" class="btn btn-primary">
+                    Tính
+                </button>
+                <p id="quyDoi" class="alert alert-primary"></p>
+            </form>
+
+            <!-- *Bải Tập 4 -->
+            <h2 class="my-5">Bài tập 4</h2>
+            <form>
+                <div class="form-group">
+                    <label for="">chiều dài</label>
+                    <input type="number" class="form-control" id="inputChieuDai">
+                </div>
+                <div class="form-group">
+                    <label for="">chiều rộng</label>
+                    <input type="number" class="form-control" id="inputChieuRong">
+                </div>
+                <button onclick="tinhKichThuoc()" type="button" class="btn btn-primary">
+                    Tính
+                </button>
+                <p id="kichThuoc" class="alert alert-primary"></p>
+            </form>
+            <!-- *Bài Tập 5 -->
+            <h2 class="my-5">Bài tạp 5</h2>
+            <form>
+                <div class="form-group">
+                    <label for="">Số có 2 chữ số</label>
+                    <input type="number" class="form-control" id="inputNumBer">
+                </div>
+                <button onclick="tinhTong2KySo()" type="button" class="btn btn-primary">
+                    Tính
+                </button>
+                <p id="tong2KySo" class="alert alert-primary"></p>
+            </form>
+
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- BS4 -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+
+    <!-- JS -->
+    <!-- <script src="./js/BT1_B4.js"></script> -->
+    <!-- <script src="./js/BT2_B4.js"></script> -->
+    <!-- <script src="./js/BT3_B4.js"></script> -->
+    <!-- <script src="./js/BT4_B4.js"></script> -->
+    <script src="./js/BT5_B4.js"></script>
+
+</body>
+
+</html>
